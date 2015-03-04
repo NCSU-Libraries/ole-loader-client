@@ -1,0 +1,8 @@
+build/
+bin/
+.*
+!.gitignore
+*.iml
+README.md.html
+
+

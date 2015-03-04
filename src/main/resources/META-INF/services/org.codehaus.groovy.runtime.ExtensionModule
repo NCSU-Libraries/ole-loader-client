@@ -1,0 +1,4 @@
+moduleName=jsonResponse
+moduleVersion=0.1-SNAPSHOT
+extensionClasses= org.kuali.ole.contrib.client.ResponseExtension
+#staticExtensionClasses=ResponseExtension

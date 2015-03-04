@@ -1,0 +1,11 @@
+{
+  "@context" : "http://ole.kuali.org/standards/api/location.jsonld",
+  "@id" : "http://localhost:8080/olefs/api/location/43",
+  "code" : "DHHILL",
+  "name" : "D.H. Hill Library",
+  "level" : {
+        "@context" : "http://ole.kuali.org/standards/api/locationLevel.jsonld",
+        "name" : "Library",
+        "@id" : "http://localhost:8080/olefs/api/locationLevel/4"
+  }
+}

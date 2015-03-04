@@ -1,0 +1,42 @@
+{
+  "@context" : "http://ole.kuali.org/standards/api/location.jsonld",
+  "items" :  [
+    {
+      "@id" : "http://localhost:8080/olefs/api/location/43",
+      "code" : "DHHILL",
+      "name" : "D.H. Hill Library",
+      "level" : {
+        "@context" : "http://ole.kuali.org/api/locationLevel.jsonld",
+        "name" : "LIBRARY",
+        "@id" : "http://localhost:8080/olefs/api/locationLevel/4"
+      }
+    },
+
+    {
+          "@id" : "http://localhost:8080/olefs/api/location/45",
+          "code" : "DHHILL-STACKS",
+          "name" : "D.H. Hill Library - Stacks",
+          "level" : {
+            "@context" : "http://ole.kuali.org/api/locationLevel.jsonld",
+            "name" : "SHELVING",
+            "@id" : "http://localhost:8080/olefs/api/locationLevel/5"
+          },
+          "parent" : {
+            "@id" :"http://localhost:8080/olefs/api/location/43",
+            "name" : "D.H. Hill Library",
+            "code" : "DHHILL"
+          }
+        },
+
+    {
+          "@id" : "http://localhost:8080/olefs/api/location/44",
+          "code" : "HUNT",
+          "name" : "Hunt Library",
+          "level" : {
+            "@context" : "http://ole.kuali.org/api/locationLevel.jsonld",
+            "name" : "LIBRARY",
+            "@id" : "http://localhost:8080/olefs/api/locationLevel/4"
+          }
+        }
+    ]
+}
